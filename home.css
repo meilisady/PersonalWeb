@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #272727;
+    color: white;
+    margin:0;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 5%;
+    position: fixed;
+    z-index: 5;
+}
+.logo{
+    font-weight: 900;
+    font-size: 32px;
+}
+a{
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+.content{
+    width: 70%;
+    margin:auto;
+}
+.banner{
+    padding:10% 0;
+}
+.about img{
+    position: absolute;
+    z-index: 1;
+    border-radius: 10%;
+    width: 20%;
+    right: 15%;
+    top: 20%;
+}
+.name{
+    margin-top: 15%;
+}
+.about p,.name{
+    width: 60%;
+    margin-right: 5px;
+}
+.portfolio{
+    margin: 20% 0;
+}
+.description{
+    text-align: center;
+}
+.port1{
+    margin: 5%;
+    display:grid;
+    grid-template: 1fr/ 30% 30% 30%;
+    column-gap: 5%;
+    row-gap: 5%;
+}
+.port-card{
+    background-color: white;
+    border-radius: 10%;
+}
+.port-image img{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 100%;
+    border-radius: 10% 10% 0 0;
+}
+.port-title {
+    color: black;
+    text-align: center;
+}
+.content{
+}
+.footer{
+}
